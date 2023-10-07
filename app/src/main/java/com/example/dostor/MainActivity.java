@@ -31,15 +31,15 @@ public class MainActivity extends AppCompatActivity {
         String EnterA = etA.getText().toString();
         String EnterB = etB.getText().toString();
         String EnterC = etC.getText().toString();
-        if(EnterA.isEmpty()||!TextUtils.isDigitsOnly(EnterA)||EnterA.isEmpty()||!TextUtils.isDigitsOnly(EnterA)) {
+        if(EnterA.isEmpty()) {
             Toast.makeText(this, "Check data you entered", Toast.LENGTH_SHORT).show();
             return;
         }
-        if(EnterB.isEmpty()||!TextUtils.isDigitsOnly(EnterB)||EnterB.isEmpty()||!TextUtils.isDigitsOnly(EnterB)) {
+        if(EnterB.isEmpty()) {
             Toast.makeText(this, "Check data you entered", Toast.LENGTH_SHORT).show();
             return;
         }
-        if(EnterC.isEmpty()||!TextUtils.isDigitsOnly(EnterC)||EnterC.isEmpty()||!TextUtils.isDigitsOnly(EnterC)) {
+        if(EnterC.isEmpty()) {
             Toast.makeText(this, "Check data you entered", Toast.LENGTH_SHORT).show();
             return;
         }
